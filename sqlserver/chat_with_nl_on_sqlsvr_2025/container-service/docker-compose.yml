@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:latest
+    command: ["--config=/etc/otelcol/config.yaml"]
+    volumes:
+      - ./collector.yaml:/etc/otelcol/config.yaml
+    ports:
+      - "4318:4318"   # OTLP HTTP (host → collector)
+      - "4317:4317"   # OTLP gRPC (host → collector)
+    restart: unless-stopped
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    command:
+      - "--collector.otlp.enabled=true"
+      - "--collector.otlp.http.host-port=:4318"
+      - "--collector.otlp.grpc.host-port=:4317"
+    ports:
+      - "16686:16686" # Jaeger UI only
+    restart: unless-stopped
