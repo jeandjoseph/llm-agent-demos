@@ -1,0 +1,47 @@
+[
+  {
+    "trip_id": "TRIP-1001",
+    "employee_name": "Sarah Johnson",
+    "department": "Sales",
+    "destination": "Miami",
+    "trip_duration_days": 5,
+    "trip_type": "beach",
+    "purpose": "Sales Conference"
+  },
+  {
+    "trip_id": "TRIP-1002",
+    "employee_name": "Michael Chen",
+    "department": "Consulting",
+    "destination": "New York",
+    "trip_duration_days": 3,
+    "trip_type": "business",
+    "purpose": "Client Presentation"
+  },
+  {
+    "trip_id": "TRIP-1003",
+    "employee_name": "Lisa Martinez",
+    "department": "Executive",
+    "destination": "Denver",
+    "trip_duration_days": 7,
+    "trip_type": "hiking",
+    "purpose": "Leadership Retreat"
+  },
+  {
+    "trip_id": "TRIP-1004",
+    "employee_name": "David Wilson",
+    "department": "Operations",
+    "destination": "Phoenix",
+    "trip_duration_days": 4,
+    "trip_type": "business",
+    "purpose": "Warehouse Assessment"
+  },
+  {
+    "trip_id": "TRIP-1005",
+    "employee_name": "Priya Patel",
+    "department": "Engineering",
+    "destination": "Honolulu",
+    "trip_duration_days": 6,
+    "trip_type": "beach",
+    "purpose": "Technology Summit"
+  }
+]

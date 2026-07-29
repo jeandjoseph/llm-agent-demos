@@ -1,0 +1,62 @@
+[
+  {
+    "request_id": 1001,
+    "employee_id": "EMP-4521",
+    "employee_name": "Sarah Johnson",
+    "department": "Sales",
+    "trip_purpose": "Customer Meeting",
+    "from_city": "New York",
+    "to_city": "Boston",
+    "distance_km": 345,
+    "mode": "car",
+    "request_date": "2026-07-01"
+  },
+  {
+    "request_id": 1002,
+    "employee_id": "EMP-7742",
+    "employee_name": "Michael Chen",
+    "department": "Consulting",
+    "trip_purpose": "Client Workshop",
+    "from_city": "Chicago",
+    "to_city": "Detroit",
+    "distance_km": 455,
+    "mode": "train",
+    "request_date": "2026-07-02"
+  },
+  {
+    "request_id": 1003,
+    "employee_id": "EMP-1124",
+    "employee_name": "Lisa Martinez",
+    "department": "Executive",
+    "trip_purpose": "Board Meeting",
+    "from_city": "Los Angeles",
+    "to_city": "Seattle",
+    "distance_km": 1545,
+    "mode": "plane",
+    "request_date": "2026-07-03"
+  },
+  {
+    "request_id": 1004,
+    "employee_id": "EMP-9103",
+    "employee_name": "David Wilson",
+    "department": "Field Operations",
+    "trip_purpose": "Site Inspection",
+    "from_city": "Dallas",
+    "to_city": "Houston",
+    "distance_km": 385,
+    "mode": "car",
+    "request_date": "2026-07-03"
+  },
+  {
+    "request_id": 1005,
+    "employee_id": "EMP-6731",
+    "employee_name": "Priya Patel",
+    "department": "Engineering",
+    "trip_purpose": "Data Center Migration",
+    "from_city": "San Francisco",
+    "to_city": "Phoenix",
+    "distance_km": 1050,
+    "mode": "plane",
+    "request_date": "2026-07-04"
+  }
+]

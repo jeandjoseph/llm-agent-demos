@@ -1,0 +1,18 @@
+[
+  {
+    "request_id": 1,
+    "user_prompt": "I need to travel from New York to Boston by train. The distance is approximately 350 km."
+  },
+  {
+    "request_id": 2,
+    "user_prompt": "I'm flying from Los Angeles to Seattle, about 1545 km away."
+  },
+  {
+    "request_id": 3,
+    "user_prompt": "I'm going on a hiking trip next week. Can you generate a packing list?"
+  },
+  {
+    "request_id": 4,
+    "user_prompt": "I'm attending a customer conference at the beach and need a packing list."
+  }
+]
